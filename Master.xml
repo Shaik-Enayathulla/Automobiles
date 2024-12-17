@@ -8,8 +8,8 @@
 <parameter name="os" value="Windows"/>
 <parameter name="browser" value="Firefox"/>
 <classes>
-     <class name="TestCases.TC001_RegisterationofAccount"/>
-	 <class name="TestCases.TC002_LoginofAccount"/>
+     	<class name="TestCases.TC001_RegisterationofAccount"/>
+	<class name="TestCases.TC002_LoginofAccount"/>
 	 <!--<class name="TestCases.TC_003_DataDrivenLogin"/>-->
 </classes>
 </test>
