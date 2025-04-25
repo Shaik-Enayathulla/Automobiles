@@ -18,6 +18,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -77,12 +78,13 @@ public class testbase {
 			
 		if(p.getProperty("runningenv").equalsIgnoreCase("local"))
 		{
+			EdgeOptions options = new EdgeOptions();
 		
 			switch(br.toLowerCase())
 			{
 			case "chrome": driver=new ChromeDriver(); break;
 			case "firefox": driver=new FirefoxDriver(); break;
-			case "edge": driver=new EdgeDriver(); break;
+			case "edge": 	driver=new EdgeDriver(options);break;
 			default: System.out.println("Please pass the correct browser name!"); return;
 			}
 		}
@@ -91,6 +93,7 @@ public class testbase {
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 			driver.get(p.getProperty("appURL1"));
 			driver.manage().window().maximize();
+			driver.manage().logs().getAvailableLogTypes();
 	}
 	
 	@AfterClass(groups= {"Sanity","Regression","Master"})
@@ -118,7 +121,7 @@ public class testbase {
 		return (pswdStr+"@"+pswdnum);
 	}
 	
-	public String captureScreen(String tname) throws IOException {
+	/*public String captureScreen(String tname) throws IOException {
 
 		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 				
@@ -131,7 +134,7 @@ public class testbase {
 		sourceFile.renameTo(targetFile);
 			
 		return targetFilePath;
-	}
+	}*/
 
 
 }

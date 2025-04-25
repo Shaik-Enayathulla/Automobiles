@@ -1,2 +1,2 @@
-cd C:\Users\ADMIN\eclipse-workspace\OpenCartFrameWorkTestNG
+cd C:\Users\shaik\git\Automobiles
 mvn test

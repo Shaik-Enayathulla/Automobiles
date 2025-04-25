@@ -6,22 +6,15 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="Chrome"/>
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="TestCases.TC001_RegisterationofAccount">
+      <class name="TestCases.TC005_AddWishList">
         <methods>
           <include name="setup"/>
-          <include name="Validation_of_Regestraion"/>
+          <include name="Func_WishList"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- TestCases.TC001_RegisterationofAccount -->
-      <class name="TestCases.TC002_LoginofAccount">
-        <methods>
-          <include name="setup"/>
-          <include name="ValitationofLogin"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- TestCases.TC002_LoginofAccount -->
+      </class> <!-- TestCases.TC005_AddWishList -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

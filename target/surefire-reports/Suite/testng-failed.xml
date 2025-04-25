@@ -4,24 +4,17 @@
   <listeners>
     <listener class-name="Utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" name="firefoxTest(failed)" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
     <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="firefox"/>
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="TestCases.TC002_LoginofAccount">
+      <class name="TestCases.TC_003_DataDrivenLogin">
         <methods>
-          <include name="setup"/>
-          <include name="ValitationofLogin"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- TestCases.TC002_LoginofAccount -->
-      <class name="TestCases.TC001_RegisterationofAccount">
-        <methods>
+          <include name="DataDriverTest" invocation-numbers="0 2 4 5 6 7"/>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="Validation_of_Regestraion"/>
         </methods>
-      </class> <!-- TestCases.TC001_RegisterationofAccount -->
+      </class> <!-- TestCases.TC_003_DataDrivenLogin -->
     </classes>
-  </test> <!-- firefoxTest(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
