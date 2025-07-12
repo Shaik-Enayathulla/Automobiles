@@ -8,7 +8,7 @@
 	<parameter name="os" value="Windows"/>
 	<parameter name="browser" value="firefox"/>
 	<classes>
-	      <class name="TestCases.TC004_SearchBar"/>
+	      <class name="TestCases.TC004_SearchBar_Test"/>
 	      <class name="TestCases.TC002_LoginofAccount"/>
 	</classes>
 </test>
