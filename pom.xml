@@ -19,7 +19,7 @@
 	       <version>3.5.0</version>
 	       <configuration>
 	       		<suiteXmlFiles>
-	       			<SuiteXmlFile>Master.xml</SuiteXmlFile>
+	       			<SuiteXmlFile>CrossBrowserTest.xml</SuiteXmlFile>
 	       		</suiteXmlFiles>
 		    <!-- put your configurations here -->
 		   </configuration>
