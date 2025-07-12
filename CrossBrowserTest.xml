@@ -8,7 +8,7 @@
 	<parameter name="os" value="Windows"/>
 	<parameter name="browser" value="firefox"/>
 	<classes>
-	      <class name="TestCases.TC001_RegisterationofAccount"/>
+	      <class name="TestCases.TC004_SearchBar"/>
 	      <class name="TestCases.TC002_LoginofAccount"/>
 	</classes>
 </test>
@@ -18,7 +18,7 @@
 	<parameter name="os" value="Windows"/>
 	<parameter name="browser" value="Chrome"/>
 	<classes>
-	      <class name="TestCases.TC001_RegisterationofAccount"/>
+	      <class name="TestCases.TC005_AddWishList"/>
 	      <class name="TestCases.TC002_LoginofAccount"/>
 	</classes>
 </test>
