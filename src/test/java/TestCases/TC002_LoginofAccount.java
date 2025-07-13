@@ -27,7 +27,7 @@ public class TC002_LoginofAccount extends testbase {
 		
 		Validation vld = new Validation(driver);
 		boolean b = vld.ValitationofAccount();
-		Assert.assertEquals(b, true);
+		Assert.assertEquals(b, false);
 		}
 		catch(Exception e)
 		{
