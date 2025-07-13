@@ -10,6 +10,7 @@
 	<classes>
 	      <class name="TestCases.TC004_SearchBar_Test"/>
 	      <class name="TestCases.TC002_LoginofAccount"/>
+	      <class name="TestCases.TC001_RegisterationofAccount"/>
 	</classes>
 </test>
 <!--  Test  -->
@@ -28,8 +29,7 @@
 	<parameter name="os" value="Windows"/>
 	<parameter name="browser" value="edge"/>
 	<classes>
-	      <class name="TestCases.TC001_RegisterationofAccount"/>
-	      <class name="TestCases.TC002_LoginofAccount"/>
+	      <class name="TestCases.TC005_AddWishList"/>
 	</classes>
 </test>
 <!--  Test  -->

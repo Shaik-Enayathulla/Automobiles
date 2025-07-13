@@ -13,11 +13,11 @@
 		<!--<include name="Regression"/>-->
 	</run>
 </groups>
-<classes>
-     <class name="TestCases.TC001_RegisterationofAccount"/>
-	 <class name="TestCases.TC002_LoginofAccount"/>
-	 <!--<class name="TestCases.TC_003_DataDrivenLogin"/>-->
-</classes>
+<!--<classes>-->
+<!--     <class name="TestCases.TC001_RegisterationofAccount"/>-->
+<!--	 <class name="TestCases.TC002_LoginofAccount"/>-->
+<!--	 <class name="TestCases.TC_003_DataDrivenLogin"/>-->
+<!--</classes>-->
 </test>
 <!--  Test  -->
 </suite>
