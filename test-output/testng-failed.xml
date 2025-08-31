@@ -8,13 +8,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="TestCases.TC005_AddWishList">
+      <class name="TestCases.TC007_ChangeCurrency">
         <methods>
           <include name="setup"/>
-          <include name="Func_WishList"/>
           <include name="tearDown"/>
+          <include name="CheckCurrencyChange"/>
         </methods>
-      </class> <!-- TestCases.TC005_AddWishList -->
+      </class> <!-- TestCases.TC007_ChangeCurrency -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
