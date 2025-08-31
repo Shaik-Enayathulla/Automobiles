@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-20T22:03:25 IST" name="Suite" finished-at="2025-05-20T22:03:26 IST" duration-ms="280">
+  <suite started-at="2025-08-31T21:41:26 IST" name="Suite" finished-at="2025-08-31T21:41:34 IST" duration-ms="8180">
     <groups>
+      <group name="Regression">
+        <method signature="TC006_TakingScreenShots_Logo.takeSnap_Logo()[pri:0, instance:TestCases.TC006_TakingScreenShots_Logo@6a2f6f80]" name="takeSnap_Logo" class="TestCases.TC006_TakingScreenShots_Logo"/>
+      </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-05-20T22:03:25 IST" name="Test" finished-at="2025-05-20T22:03:26 IST" duration-ms="280">
+    <test started-at="2025-08-31T21:41:26 IST" name="Test" finished-at="2025-08-31T21:41:34 IST" duration-ms="8180">
+      <class name="TestCases.TC006_TakingScreenShots_Logo">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC006_TakingScreenShots_Logo@6a2f6f80]" started-at="2025-08-31T21:41:26 IST" name="setup" finished-at="2025-08-31T21:41:32 IST" duration-ms="6433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="takeSnap_Logo()[pri:0, instance:TestCases.TC006_TakingScreenShots_Logo@6a2f6f80]" started-at="2025-08-31T21:41:32 IST" name="takeSnap_Logo" finished-at="2025-08-31T21:41:33 IST" duration-ms="1177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeSnap_Logo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC006_TakingScreenShots_Logo@6a2f6f80]" started-at="2025-08-31T21:41:33 IST" name="tearDown" finished-at="2025-08-31T21:41:34 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC006_TakingScreenShots_Logo -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

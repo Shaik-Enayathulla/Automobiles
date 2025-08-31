@@ -9,7 +9,7 @@ import PageObjects.Validation;
 import TestBase.testbase;
 import Utilities.DataProviders;
 
-public class TC_003_DataDrivenLogin extends testbase{
+public class TC003_DataDrivenLogin extends testbase{
 
 	@Test(dataProvider="LoginData",dataProviderClass=DataProviders.class)
 	public void DataDriverTest(String email,String pass,String expt)
