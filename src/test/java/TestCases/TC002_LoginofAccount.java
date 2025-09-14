@@ -10,7 +10,7 @@ import TestBase.testbase;
 
 public class TC002_LoginofAccount extends testbase {
 	
-	@Test(groups={"Sanity"})
+	@Test(groups={"Master"})
 	public void ValitationofLogin()
 	{
 		log.info("****************Test TC002 started*********************");
