@@ -11,7 +11,7 @@ import Utilities.DataProviders;
 
 public class TC003_DataDrivenLogin extends testbase{
 
-	@Test(dataProvider="LoginData",dataProviderClass=DataProviders.class)
+	@Test(dataProvider="LoginData",dataProviderClass=DataProviders.class, groups= {"Master"})
 	public void DataDriverTest(String email,String pass,String expt)
 	{
 		log.info("****************Test TC003 Data Driven Testing started*********************");

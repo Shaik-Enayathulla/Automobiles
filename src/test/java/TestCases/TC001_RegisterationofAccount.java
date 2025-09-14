@@ -9,7 +9,7 @@ import TestBase.testbase;
 
 public class TC001_RegisterationofAccount extends testbase {
 	
-	@Test(groups= {"Regression","Master"})
+	@Test(groups= {"Regression"})
 	public void Validation_of_Regestraion() throws InterruptedException
 	{
 		log.info("*********Home Page got launched*****************");

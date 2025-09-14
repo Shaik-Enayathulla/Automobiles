@@ -8,7 +8,7 @@ import PageObjects.HomePage;
 import TestBase.testbase;
 
 public class TC006_TakingScreenShots_Logo extends testbase {
-	@Test(groups= {"Regression"})
+	@Test(groups= {"Master"})
 	public void takeSnap_Logo()
 	{
 		try {

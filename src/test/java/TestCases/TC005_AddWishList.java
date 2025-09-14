@@ -12,7 +12,7 @@ import TestBase.testbase;
 
 public class TC005_AddWishList extends testbase
 {
-	@Test(groups="Master")
+	@Test(groups="Regression")
 	public void Func_WishList()
 	{
 		log.info("*********Home Page got launched*****************");

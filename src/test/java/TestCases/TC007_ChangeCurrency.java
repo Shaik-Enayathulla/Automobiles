@@ -8,7 +8,7 @@ import TestBase.testbase;
 
 public class TC007_ChangeCurrency extends testbase {
 	
-	@Test(groups= {"Regression"})
+	@Test(groups= {"Sanity"})
 	public void CheckCurrencyChange()
 	{
 		HomePage hp = new HomePage(driver);
