@@ -8,12 +8,13 @@
 <parameter name="os" value="Windows"/>
 <parameter name="browser" value="chrome"/>
 <classes>
-    <!--<class name="TestCases.TC001_RegisterationofAccount"/>
+    <class name="TestCases.TC001_RegisterationofAccount"/>
 	<class name="TestCases.TC002_LoginofAccount"/>
-	<class name="TestCases.TC_003_DataDrivenLogin"/>-->
+	<class name="TestCases.TC_003_DataDrivenLogin"/>
 	<class name="TestCases.TC005_AddWishList"/>
-	<!--<class name="TestCases.TC006_TakingScreenShots_Logo"/>-->
+	<class name="TestCases.TC006_TakingScreenShots_Logo"/>
 	<class name="TestCases.TC007_ChangeCurrency"/>
+	<class name="TestCases.TC002_LoginofAccount"/>
 </classes>
 </test>
 <!--  Test  -->
